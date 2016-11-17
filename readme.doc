@@ -1,0 +1,16 @@
+List of all the files in the system:
+	1) register.php 
+	2) login.php
+	3) booking.php
+	4) admin.php
+	5) connection.php
+	6) mysql_commands.txt
+
+
+# The user has to first goto the register.php page to register his/herself.They have to fill in every details in proper format to be able to get registered.
+# After successful registration it will show them a message in the bottom of the registration form
+# Now the user can go to login.php page using link in registration page or by typing the login.php url
+# They have to provide their correct email and password to authenticate. 
+# After successful authentication the user will be redirected to the booking.php page. The user name will be carry forwarded to the booking page.
+# In booking page the user has to fill in all the details except the unit number. The pickup time must be 1 hour from current time. After successful booking an email confirmation will be sent and unique booking number will be generated. User will see the confirmation message at the bottom of the booking page.
+# In admin page the admin need to click on the "List all" button to view the unassigned pick up requests that are within next two hours. Admin can type the reference number in the input field and then click on update button to change the generated_status from "unassigned" to "assigned". After updating the generated_status you need to click on the “List all” button see the updated unassigned pickup list again.

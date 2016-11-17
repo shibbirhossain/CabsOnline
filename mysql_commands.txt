@@ -1,0 +1,18 @@
+1) customer table sql:
+
+CREATE TABLE `customer` (
+ `email` varchar(140) NOT NULL,
+ `customer_name` varchar(140) NOT NULL,
+ `password` varchar(140) NOT NULL,
+ `phone` int(40) NOT NULL,
+ PRIMARY KEY (`email`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1
+
+
+2) booking table sql:
+
+CREATE TABLE `booking` (  `booking_number` int(140) NOT NULL AUTO_INCREMENT,  `email` varchar(140) NOT NULL,  `passenger_name` varchar(140) NOT NULL,  `passenger_phone` varchar(40) NOT NULL,  `destination` varchar(140) NOT NULL,  `pickup_datetime` varchar(140) NOT NULL,  `booking_datetime` varchar(140) NOT NULL,  `generated_status` varchar(140) NOT NULL,  `unit_number` varchar(140) DEFAULT NULL,  `street_number` varchar(140) NOT NULL,  `street_name` varchar(140) NOT NULL,  `pickup_suburb` varchar(140) NOT NULL,  PRIMARY KEY (`booking_number`)) ENGINE=MyISAM AUTO_INCREMENT=23 DEFAULT CHARSET=latin1
+
+
+3) database sql:
+CREATE DATABASE `s100864497_db` /*!40100 DEFAULT CHARACTER SET latin1 */
